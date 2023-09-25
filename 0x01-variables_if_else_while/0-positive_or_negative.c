@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - main block
-* Return:0
+*main-main_block
+*Return:0
 */
 int main(void)
 {
