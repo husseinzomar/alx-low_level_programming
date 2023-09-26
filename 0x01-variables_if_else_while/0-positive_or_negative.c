@@ -1,9 +1,9 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
 /**
-*main-main_block
-*Return:0
+* main-main_block
+* Return:0
 */
 int main(void)
 {
