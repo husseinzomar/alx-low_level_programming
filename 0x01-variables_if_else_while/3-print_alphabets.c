@@ -1,20 +1,16 @@
 #include <stdio.h>
 /**
-* main - start point of the program
-* Return: always must be 0 in case you are using int if you using void
-* no need to return keyword
-*/
+ * main - Prints the alphabet in lowercase, and then in uppercase.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-int n;
-for (n = 'a'; n <= 'z'; n++)
-{
-if (n != 'e' && n != 'q')
-{
-putchar(n);
-continue;
-}
-}
-putchar('\n');
-return (0);
+	char letter;
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
+	putchar('\n');
+	return (0);
 }
